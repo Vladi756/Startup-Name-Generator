@@ -1,16 +1,7 @@
-# application
+# Startup Name Generator
 
-My first application.
+My first application coded in Dart using the flutter framework. 
 
-## Getting Started
+## Inner Working 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application uses an English dictationary package to import many english words. It then takes these words and generates pairs in pascal case, with each pair meant to represent a potential starst up name. Finally, for all purposes, an infinite list of these names are generated and the user can pick and choose which ones they like. They can also then view their choices in a special folder. 
